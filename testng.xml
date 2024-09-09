@@ -12,9 +12,16 @@
                 </methods>
             </class>
 
-            <class name="testcases.PurchaseOrderTest">
+            <class name="testcases.NewProductEntryTest">
                 <methods>
                     <include name="newProductEntry"/>
+                </methods>
+            </class>
+
+
+            <class name="testcases.PurchaseOrderTest">
+                <methods>
+                    <include name="newPurchaseOrder"/>
                 </methods>
             </class>
 
