@@ -106,17 +106,11 @@ public class basePage {
         Allure.addAttachment(name, new ByteArrayInputStream(((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
 
-    // New method for search and select with keyboard actions
-    public void searchAndSelectWithKeyboard(By searchFieldLocator, String searchTerm) {
-        WebElement searchField = getElement(searchFieldLocator);
-        searchField.sendKeys(searchTerm);
-        searchField.sendKeys(Keys.DOWN);
-        searchField.sendKeys(Keys.ENTER);
-    }
-
     public void acceptAlert() {
         Alert alert = getDriver().switchTo().alert(); // Switch to the alert
         alert.accept(); // Click OK
     }
+
+
 
 }
