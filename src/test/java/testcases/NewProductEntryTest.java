@@ -17,21 +17,13 @@ public class NewProductEntryTest extends DriverSetup {
         newProductEntry.enterItemNameAndSelectWithKeyboard("AC DEFLECTOR");
         Thread.sleep(5000);
         newProductEntry.selectWithVisibleText(newProductEntry.ProductUnitType,productUnitType);
-        Thread.sleep(5000);
         newProductEntry.writeOnElement(newProductEntry.RetailPrice,retailPrice);
-        Thread.sleep(5000);
         newProductEntry.writeOnElement(newProductEntry.WholesalePrice,WholesalePrice);
-        Thread.sleep(5000);
         newProductEntry.writeOnElement(newProductEntry.ProductName,productName);
-        Thread.sleep(5000);
         newProductEntry.writeOnElement(newProductEntry.ProductCode,productCode);
-        Thread.sleep(5000);
         newProductEntry.selectWithVisibleText(newProductEntry.Currency,currency);
-        Thread.sleep(5000);
         newProductEntry.writeOnElement(newProductEntry.CostPrice,costPrice);
-        Thread.sleep(5000);
         newProductEntry.clickOnElement(newProductEntry.ClickASaveNewProductButton);
-        Thread.sleep(5000);
         newProductEntry.acceptAlert();
     }
 

@@ -12,22 +12,44 @@
                 </methods>
             </class>
 
-            <class name="testcases.NewProductEntryTest">
+            <!-- <class name="testcases.NewProductEntryTest">
+                 <methods>
+                     <include name="newProductEntry"/>
+                 </methods>
+             </class>
+
+
+             <class name="testcases.PurchaseOrderTest">
+                 <methods>
+                     <include name="newPurchaseOrder"/>
+                 </methods>
+             </class>
+
+            <class name="testcases.PurchaseVerificationTest">
                 <methods>
-                    <include name="newProductEntry"/>
+                    <include name="PurchaseVerification"/>
+                </methods>
+            </class>
+
+            <class name="testcases.SalesProposalTest">
+                <methods>
+                    <include name="SalesProposal"/>
+                </methods>
+            </class>
+
+            <class name="testcases.SalesProposalVerificationTest">
+                <methods>
+                    <include name="SalesProposalVerification"/>
+                </methods>
+            </class>-->
+
+            <class name="testcases.JournalEntryTest">
+                <methods>
+                    <include name="JournalEntry"/>
                 </methods>
             </class>
 
 
-            <class name="testcases.PurchaseOrderTest">
-                <methods>
-                    <include name="newPurchaseOrder"/>
-                </methods>
-            </class>
-
-
-
-
-        </classes>
-    </test>
-</suite>
+         </classes>
+     </test>
+ </suite>

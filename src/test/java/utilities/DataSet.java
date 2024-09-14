@@ -50,6 +50,30 @@ public class DataSet {
 
         return dataset;
     }
+    @DataProvider(name = "PurchaseVerification")
+    public static Object PurchaseVerification(){
+        Object[][] dataset = {
+                {"test11","14-Sep-2024"}
+        };
+
+        return dataset;
+    }
+    @DataProvider(name = "salesProposal")
+    public static Object salesProposal(){
+        Object[][] dataset = {
+                {"10"}
+        };
+
+        return dataset;
+    }
+    @DataProvider(name = "journalEntry")
+    public static Object journalEntry(){
+        Object[][] dataset = {
+                {"10"}
+        };
+
+        return dataset;
+    }
     @DataProvider(name = "cardNumber1")
     public static Object cardNumber1(){
         Object[][] dataset = {
