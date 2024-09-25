@@ -41,13 +41,13 @@
                 <methods>
                     <include name="SalesProposalVerification"/>
                 </methods>
-            </class>-->
+            </class>
 
             <class name="testcases.JournalEntryTest">
                 <methods>
                     <include name="JournalEntry"/>
                 </methods>
-            </class>
+            </class>-->
 
 
          </classes>

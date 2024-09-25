@@ -9,6 +9,6 @@ public class LoginPage1 extends basePage{
     public By loginButton = By.id("loginBtn");
     public By confirmationMessageElement = By.xpath("//h3[@class='page-title']");
     public By logOutButton = By.linkText("Logout");
-    public By warningMessage = By.xpath("//div[contains(@class, 'alert') and contains(@class, 'alert-danger') and contains(@class, 'alert-dismissible') and contains(@class, 'fade') and contains(@class, 'show')]");
+    public By passwordPage = By.xpath("//span[@class='label-input100' and text()='Password']");
 
 }

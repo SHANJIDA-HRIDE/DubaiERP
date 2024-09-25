@@ -1,6 +1,7 @@
 package testcases;
 
 import io.qameta.allure.Description;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.NewProductEntryPage;
 import utilities.DataSet;
@@ -25,6 +26,8 @@ public class NewProductEntryTest extends DriverSetup {
         newProductEntry.writeOnElement(newProductEntry.CostPrice,costPrice);
         newProductEntry.clickOnElement(newProductEntry.ClickASaveNewProductButton);
         newProductEntry.acceptAlert();
+        newProductEntry.addScreenShot("After logging in with correct username");
+        Assert.assertEquals(newProductEntry.getElementText(newProductEntry.confirmationMessageElement),"\t\t\t\t\t\tProduct Created Successfully.\t\t\t\t\t");
     }
 
 }
