@@ -28,6 +28,8 @@ public class JournalEntryTest extends DriverSetup {
         Thread.sleep(5000);
         journalEntry.acceptAlert();
         Thread.sleep(5000);
+        journalEntry.addScreenShot("After successful Valid Journal Entry");
+
     }
 
 }

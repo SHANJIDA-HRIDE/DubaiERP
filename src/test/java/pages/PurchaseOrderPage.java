@@ -12,7 +12,8 @@ public class PurchaseOrderPage extends basePage{
     public By  ItemName= By.id("product_name");
     public By  ItemQuantity= By.id("product_quantity");
     public By  ClickOnAddProductButton= By.id("btnAdd");
-    public By  lickASaveProductButton= By.id("btnSave");
+    public By  ClickASaveProductButton= By.id("btnSave");
+    public By  ClickDeleteProductButton= By.id("btnDelete");
 
     public void enterItemNameAndSelectWithKeyboard(String itemName) throws InterruptedException {
         WebElement itemNameField = getElement(ItemName);

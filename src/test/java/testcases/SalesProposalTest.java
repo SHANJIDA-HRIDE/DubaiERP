@@ -25,6 +25,8 @@ public class SalesProposalTest extends DriverSetup {
         Thread.sleep(5000);
         salesProposal.acceptAlert();
         Thread.sleep(5000);
+        salesProposal.addScreenShot("After successful Sales Proposal");
+
     }
 
 }

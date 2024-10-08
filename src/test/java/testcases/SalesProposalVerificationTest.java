@@ -23,5 +23,8 @@ public class SalesProposalVerificationTest extends DriverSetup {
         Thread.sleep(5000);
         salesProposalVerification.acceptAlert();
         Thread.sleep(5000);
+        salesProposalVerification.addScreenShot("After successful Sales Proposal Verification");
+        DriverSetup.getDriver().close();
 
-}}
+
+    }}

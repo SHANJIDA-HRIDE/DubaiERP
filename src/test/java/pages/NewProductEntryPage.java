@@ -16,7 +16,11 @@ public class NewProductEntryPage extends basePage{
     public By  Currency= By.id("currency");
     public By  CostPrice= By.id("cost_price");
     public By  ClickASaveNewProductButton= By.id("btnSaveEX");
+    public By  ClickDeleteProductButton= By.id("btnDelete");
     public By confirmationMessageElement = By.xpath("//body/div[2]/div[1]/div[1]/div[1]");
+    public By  successAlert = By.cssSelector("div.alert.alert-success.alert-dismissable");
+    public By  updateAlert = By.xpath("//body/div[2]/div[1]/div[1]/div[1]");
+    public By  deleteAlert = By.xpath("//body/div[2]/div[1]/div[1]/div[1]");
 
     public void enterItemNameAndSelectWithKeyboard(String productCategory) throws InterruptedException {
         WebElement itemNameField = getElement(ProductCategory);
