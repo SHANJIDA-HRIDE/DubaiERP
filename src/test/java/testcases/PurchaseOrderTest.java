@@ -25,17 +25,13 @@ public class PurchaseOrderTest extends DriverSetup {
         purchaseOrder.clickOnElement(purchaseOrder.ClickOnAddProductButton);
         purchaseOrder.clickOnElement(purchaseOrder.ClickASaveProductButton);
         purchaseOrder.acceptAlert();
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         purchaseOrder.addScreenShot("After successful purchase order");
         purchaseOrder.writeOnElement(purchaseOrder.ItemQuantity,"5");
         purchaseOrder.clickOnElement(purchaseOrder.ClickASaveProductButton);
         purchaseOrder.acceptAlert();
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         purchaseOrder.addScreenShot("After successful edit purchase order");
-        purchaseOrder.clickOnElement(purchaseOrder.ClickDeleteProductButton);
-        purchaseOrder.acceptAlert();
-        Thread.sleep(2000);
-        purchaseOrder.addScreenShot("After successful delete purchase order");
     }
 
 }

@@ -20,11 +20,6 @@ public class SalesProposalVerificationTest extends DriverSetup {
             DriverSetup.getDriver().switchTo().window(winHandle);
         }
         salesProposalVerification.clickOnElement(salesProposalVerification.ClickOnSalesApproveButton2);
-        Thread.sleep(5000);
         salesProposalVerification.acceptAlert();
-        Thread.sleep(5000);
-        salesProposalVerification.addScreenShot("After successful Sales Proposal Verification");
-        DriverSetup.getDriver().close();
-
-
-    }}
+    }
+}

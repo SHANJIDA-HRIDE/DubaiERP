@@ -24,6 +24,7 @@ public class JournalEntryTest extends DriverSetup {
         journalEntry.EnterItemNameAndSelectWithKeyboard("SALARY EXPENSE");
         Thread.sleep(5000);
         journalEntry.clickOnElement(journalEntry.ClickOnAddButton);
+        Thread.sleep(3000);
         journalEntry.clickOnElement(journalEntry.ClickASaveButton);
         Thread.sleep(5000);
         journalEntry.acceptAlert();

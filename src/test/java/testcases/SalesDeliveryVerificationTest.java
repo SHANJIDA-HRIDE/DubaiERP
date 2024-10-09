@@ -21,6 +21,5 @@ public class SalesDeliveryVerificationTest extends DriverSetup {
         salesDelivery.clickOnElement(salesDelivery.ClickOnDeliveryButton);
         Thread.sleep(5000);
         salesDelivery.acceptAlert();
-        DriverSetup.getDriver().close();
     }
 }

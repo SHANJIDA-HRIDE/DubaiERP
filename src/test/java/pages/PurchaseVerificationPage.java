@@ -10,7 +10,7 @@ import static utilities.DriverSetup.getDriver;
 public class PurchaseVerificationPage extends basePage{
     public String PurchaseVerificationUrl = "https://erp.threearrowplastic.com/Three-arrows-dubai-test/sAdmin/site/Inventory/purchase/verifications/PurchaseVerification.php";
 
-    public By ClickOnPurchaseDetails= By.xpath("//button[contains(text(),'Details') and contains(@onclick, 'PUR-0000000000000000006')]");
+    public By ClickOnPurchaseDetails= By.xpath("//button[contains(text(),'Details') and contains(@onclick, 'PUR-0000000000000000009')]");
     public By ClickOnReceiveMaterialButton = By.id("StateChange");
     public By ClickOnBillEntryButton= By.xpath("//input[@type='submit' and @value='Bill Entry' and @onclick='gochallan()']");
     public By EnterBillNo = By.id("bill_no");

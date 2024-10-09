@@ -15,7 +15,7 @@ public class NewProductEntryTest extends DriverSetup {
     public void newProductEntry(String productUnitType,String retailPrice,String WholesalePrice,String productName,String productCode,String currency,String costPrice) throws InterruptedException {
         getDriver().get(newProductEntry.newProductEntryPageUrl);
         newProductEntry.enterItemNameAndSelectWithKeyboard("AC DEFLECTOR");
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         newProductEntry.selectWithVisibleText(newProductEntry.ProductUnitType,productUnitType);
         newProductEntry.writeOnElement(newProductEntry.RetailPrice,retailPrice);
         newProductEntry.writeOnElement(newProductEntry.WholesalePrice,WholesalePrice);

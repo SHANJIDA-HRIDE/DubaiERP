@@ -42,7 +42,7 @@ public class DataSet {
     @DataProvider(name = "PurchaseVerification")
     public static Object PurchaseVerification(){
         Object[][] dataset = {
-                {"test11","08-Sep-2024"}
+                {"automatetest","09-Sep-2024"}
         };
 
         return dataset;
@@ -58,7 +58,7 @@ public class DataSet {
     @DataProvider(name = "journalEntry")
     public static Object journalEntry(){
         Object[][] dataset = {
-                {"10"}
+                {"100"}
         };
 
         return dataset;
