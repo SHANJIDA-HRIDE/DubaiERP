@@ -4,6 +4,16 @@ import org.testng.annotations.DataProvider;
 
 public class DataSet {
 
+    @DataProvider(name = "InvalidUsername")
+    public static Object InvalidUsername(){
+        Object[][] dataset = {
+                {"test"}
+        };
+
+
+        return dataset;
+    }
+
 
     @DataProvider(name = "validUsername")
     public static Object validUsername(){
@@ -14,6 +24,17 @@ public class DataSet {
 
         return dataset;
     }
+
+    @DataProvider(name = "InvalidPassword")
+    public static Object InvalidPassword(){
+        Object[][] dataset = {
+                {"Guru12345"}
+        };
+
+
+        return dataset;
+    }
+
     @DataProvider(name = "validPassword")
     public static Object validPassword(){
         Object[][] dataset = {
